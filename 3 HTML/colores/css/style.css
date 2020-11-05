@@ -1,0 +1,29 @@
+/* 
+    COLORES ESTANDAR (140)
+    color: slateblue; 
+
+    RGB 0/255
+    color: rgb(100, 50, 100);
+
+    RGB-A 0/255 - 0/1
+    color: rgba(0, 100, 255, 0.3);
+    
+    Hexadecimal #000000 #Red, Green, Blue 0-9 A-F
+    color: #2F5F7F
+
+*/
+.color1 {
+    color: slateblue;
+}
+
+.color2 {
+    color: rgb(50, 120, 80);
+}
+
+.color3 {
+    color: rgba(50, 120, 80, .6);
+}
+
+.color4 {
+    color: #00CED1;
+}
