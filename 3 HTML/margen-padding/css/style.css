@@ -1,0 +1,27 @@
+h1 {
+    background: #ec610a;
+    margin: 50px 100px 200px 500px;
+    /* 
+    margin: 100px; (Todos los margenes)
+    margin: 50px 200px; (Arriba-abajo, derecha-izquierda)
+    margin: 10px 100px 500px 1000px; (Arriba, derecha, abajo, izquierda)
+    margin-top: 100px; (Arriba)
+    margin-right: 100px; (Derecha)
+    margin-bottom: 200px; (Abajo)
+    margin-left: 100px; (Izquierda)
+    */
+}
+
+p {
+    background: #a40a3c;
+    padding: 50px 100px 200px 500px;
+    /* 
+    padding: 100px; (Todos los margenes)
+    padding: 50px 200px; (Arriba-abajo, derecha-izquierda)
+    padding: 10px 100px 500px 1000px; (Arriba, derecha, abajo, izquierda)
+    padding-top: 100px; (Arriba)
+    padding-right: 100px; (Derecha)
+    padding-bottom: 200px; (Abajo)
+    padding-left: 100px; (Izquierda)
+    */
+}
