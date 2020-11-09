@@ -1,0 +1,47 @@
+nav {
+    display: flex; 
+    justify-content: space-around;
+    background: rebeccapurple;
+    padding: 10px;
+}
+
+.nav-enlace {
+    display: inline-block;
+    background: salmon;
+    color: #fff;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+/* cursor sobre ancla */
+.nav-enlace:hover {
+    background: rosybrown;
+}
+
+.nav-boton {
+    background: salmon;
+    color: white;
+    padding: 10px 0px;
+    border: 2px solid #fff;
+    display: none;
+}
+
+/* Media query, responsive */
+@media (max-width: 600px) {
+    nav {
+        flex-direction: column;
+    }
+
+    .nav-enlace {
+        margin: 5px 0px;
+    }
+
+    .nav-boton {
+        display: inline-block;
+    }
+
+    /* toggle */
+    .desaparece {
+        display: none;
+    }
+}
