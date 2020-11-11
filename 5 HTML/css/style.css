@@ -1,0 +1,74 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    font-weight: 500;
+}
+
+p {
+    font-weight: 100;
+}
+
+.container {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.columna {
+    background: rgb(239, 239, 239);
+    color: #333;
+    border: 1px solid #333;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 8px #888;
+    width: 23%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.precio {
+    color: #00dac7;
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.description {
+    font-family: 'Lora', serif;
+}
+
+.btn-precio {
+    background: salmon;
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+.btn-precio:hover {
+    background: rgb(250, 100, 84);
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text-center {
+    text-align: center;
+}
+
+@media (max-width: 1070px) {
+    .columna {
+        width: 45%;
+    }
+}
+
+@media (max-width: 600px) {
+    .columna {
+        width: 100%;
+    }
+}
