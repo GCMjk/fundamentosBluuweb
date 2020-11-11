@@ -22,7 +22,7 @@ p {
     margin: 0 auto;
     padding: 10px;
     border-radius: 5px;
-    box-shadow: 10px 10px 8px #888;
+    box-shadow: 5px 3px rgb(241, 100, 100), -5px -3px 5px rgb(92, 181, 186);
     width: 23%;
     box-sizing: border-box;
     margin-bottom: 20px;
